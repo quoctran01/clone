@@ -1,0 +1,30 @@
+.clock__wrapper {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.text-while {
+    color: #fff
+}
+
+.lock__data{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.lock__data h1 {
+    font-size: 1.2rem; 
+    font-weight: 400;
+}
+.lock__data h3 {
+    font-size: .8rem;
+    font-weight: 350;
+}
+@media only screen and (max-width: 768px) {
+        .clock__wrapper {
+            margin-top: 16px;
+           justify-content: center;
+        }
+}

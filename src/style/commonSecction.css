@@ -1,0 +1,21 @@
+.common__secction {
+    background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)) , url('../assets/images/6-mau-hinh-anh-noi-that-nha-dep-theo-phong-cach-hien-dai-2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.common__secction h1 {
+    font-weight: 600;
+    color: #fff;
+}
+@media only screen and (max-width: 768px) {
+    .common__secction {
+        padding: 80px 0;
+        height: 200px;
+    } 
+    .common__secction h1 {
+        font-size: 1.5rem;
+    }
+}

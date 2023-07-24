@@ -1,0 +1,122 @@
+.hero__section {
+    background: var(--hero-bg);
+}
+.hero__content h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.hero__content p {
+    color: var(--primary-color);
+    line-height: 28px;
+}
+.hero__content {
+    padding-top: 40px;
+}
+.hero__section p:nth-child(1) {
+    font-weight: 500;
+}
+.buy__btn {
+    border: none;
+    outline: none;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+.timer__count {
+    background: var(--primary-color);
+    height: 300px;
+}
+
+.timer__count img {
+    object-fit: contain;
+    width: 70% !important;
+    height: 70% !important;
+}
+.timer__group {
+    padding: 0 40px;
+}
+.clock__top-content h4 {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.clock__top-content h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 4px 0;
+}
+.timer__btn {
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.timer__btn a:hover {
+    color: inherit;
+    margin: 16px 0;
+}
+.popular_text {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .hero__content h2 {
+        font-size: 2rem;
+    }
+    .hero__content {
+        padding-top: 25px;
+    }
+    .section__title {
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .hero__content h2 {
+        font-size: 1.6rem;
+    }
+    .buy__btn {
+        padding: 5px 14px;
+    }
+    .section__title {
+        font-size: 1.5rem;
+    }
+    .timer__count-img{
+        display: none;
+    }
+  
+    .timer__group   { 
+        text-align: center;
+    }
+    .timer__count {
+        padding-top:40px ;
+    }
+    .clock__top-content h4 {
+        margin-bottom: 16px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .hero__content {
+        padding-top: 0;
+    }
+    .hero__content h2 {
+        font-size: 1.2rem;
+    }
+    .hero__subtitle {
+        font-size: 1.1rem;
+    }
+    .hero__content p {
+        font-size: 0.9rem;
+    }
+    .buy__btn {
+        font-size: 0.8rem;
+        padding: 3px 10px;
+    }
+    .section__title {
+        font-size: 1.2rem;
+    }
+}

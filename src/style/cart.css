@@ -1,0 +1,16 @@
+.table img {
+     width: 60px !important;
+     height: 60px !important;
+     object-fit: cover;
+}
+td i {
+    cursor: pointer;
+}
+tr td {
+    color: var(--primary-color);
+}
+.total__detail {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 5px;
+}
